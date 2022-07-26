@@ -1,0 +1,21 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: pink;
+    background-image: url(fon.png);
+}
+.home {
+    text-align: center;
+}
+.question {
+    margin-top: 10%;
+}
+.question1 {
+    margin-top: 5%;
+}
+h1, h2 {
+    color: #563D7C;
+}
+#button {
+    width: 25%;
+}

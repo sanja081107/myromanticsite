@@ -1,0 +1,42 @@
+from django.urls import path
+from django.views.decorators.cache import cache_page
+
+from .views import *
+
+urlpatterns = [
+    path('', home, name='home'),
+    path('question1/', question1, name='question1'),
+    path('question1_t/', question1_t, name='question1_t'),
+    path('question2/', question2, name='question2'),
+    path('question2_t/', question2_t, name='question2_t'),
+    path('question3/', question3, name='question3'),
+    path('question3_t/', question3_t, name='question3_t'),
+    path('question4/', question4, name='question4'),
+    path('question4_t/', question4_t, name='question4_t'),
+    path('question5/', question5, name='question5'),
+    path('question5_t/', question5_t, name='question5_t'),
+    path('question6/', question6, name='question6'),
+    path('question6_t/', question6_t, name='question6_t'),
+    path('question7/', question7, name='question7'),
+    path('question7_t/', question7_t, name='question7_t'),
+    path('question8/', question8, name='question8'),
+    path('question8_t/', question8_t, name='question8_t'),
+    path('question9/', question9, name='question9'),
+    path('question9_t/', question9_t, name='question9_t'),
+    path('question10/', question10, name='question10'),
+    path('question10_t/', question10_t, name='question10_t'),
+    path('question11/', question11, name='question11'),
+    path('question11_t/', question11_t, name='question11_t'),
+    path('question12/', question12, name='question12'),
+    path('question12_t/', question12_t, name='question12_t'),
+    path('question13/', question13, name='question13'),
+    path('question13_t/', question13_t, name='question13_t'),
+    path('question14/', question14, name='question14'),
+    path('question14_t/', question14_t, name='question14_t'),
+    path('question15/', question15, name='question15'),
+    path('question15_t/', question15_t, name='question15_t'),
+    path('question16/', question16, name='question16'),
+    path('question16_t/', question16_t, name='question16_t'),
+    path('question17/', question17, name='question17'),
+    path('question17_t/', question17_t, name='question17_t'),
+]
